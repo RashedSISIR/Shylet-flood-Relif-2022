@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Kalam:wght@300;400;700&family=Nunito+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Merriweather+Sans:ital,wght@1,800&display=swap');
+body{
+  margin: 0;
+}
+.container {
+  position: relative;
+  margin: 0 auto;
+}
+.container .content {
+  position: absolute;
+  bottom: 10rem;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+}
+.container-img img {
+  width: 100%;
+  filter: blur(2px);
+  -webkit-filter: blur(3px);
+}
+.content span{
+  color: rgb(0, 252, 0);
+}
+.content h1 {
+  font-size: 90px;
+  color: rgb(255, 51, 51);
+  font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Merriweather Sans', sans-serif;
+}
+.content p {
+  font-size: 30px;
+  padding-bottom: 2rem;
+  letter-spacing: 8px;
+}
+.content h2 {
+  font-size: 30px;
+
+  letter-spacing: 8px;
+}
+.content a {
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  padding: 20px 60px;
+  border-radius: 8px;
+  color: black;
+  font-weight: 800px;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+.donate-container {
+  text-align: center;
+  margin: auto;
+  padding-bottom: 8rem;
+
+}
+.donate-content-2 {
+  width:60%;
+  padding: 30px;
+  margin: auto;
+  display: flex;
+  font-size: 50px;
+  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Kalam', cursive;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.donate-content-1 {
+  padding-bottom: 2rem;
+}
+.donate-content-1 h1 {
+  font-size: 60px;
+  color: #f80808;
+  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+.donate-content-1 p {
+  font-size: 30px;
+}
+.donate-content-2 p{
+  font-size: 60px;
+  padding: 40px;
+}
+.donate-content-2 {
+  padding-bottom: 5rem;
+}
+.donate-content200 {
+  color: #f80808;
+  border: 1px solid rgb(255, 0, 0);
+  background-color: hsla(2, 78%, 71%, 0.449);
+}
+.donate-content-3 input {
+  font-size: 40px;
+  border: none;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(140, 138, 137);
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.donate-content-3 a {
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  padding: 20px 60px;
+  border-radius: 8px;
+  color: black;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+.donate-plan {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 5rem;
+}
+.donate-plan h1 {
+  font-size: 60px;
+  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Merriweather Sans', sans-serif;
+  color: rgb(255, 51, 51);
+}
+.donate-plan p {
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+.donate-plan-container {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 10rem;
+}
+.donate-plan-container-content-1 {
+  width: 40%;
+  margin-left: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+  background-color: rgba(228, 186, 134, 0.548);
+  font-size: 30px;
+}
+.donate-plan-container-content-2 {
+  width: 40%;
+  margin-left: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+  background-color: rgba(158, 206, 225, 0.535);
+  font-size: 30px;
+}
+.donate-plan-container-content-3 {
+  width: 40%;
+  margin-left: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+  background-color: bisque;
+  font-size: 30px;
+}
+
+.donate-plan-container-content-1 img {
+  width: 50%;
+  padding-top: 10px;
+}
+.donate-plan-container-content-2 img {
+  width: 50%;
+  padding-top: 10px;
+}
+.donate-plan-container-content-3 img {
+  width: 50%;
+  padding-top: 10px;
+}
+.contribute-container {
+  display: flex;
+  background-color: aliceblue;
+  padding-bottom: 10rem;
+  margin: auto;
+}
+.contribute-content-1 {
+  margin: auto;
+}
+.contribute-content-1 a {
+  text-decoration: none;
+  background-image: linear-gradient(orange, rgb(233, 53, 21));
+  padding: 10px 30px;
+  border-radius: 20px;
+  color: black;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+.contribute-content-1 p {
+  font-size: 25px;
+  padding-bottom: 15px;
+}
+.contribute-content-1 h1 {
+  font-size: 50px;
+  letter-spacing: 3px;
+  border-bottom: 1px solid black;
+}
+.contribute-content-1 img {
+  border-radius: 20px;
+  margin-top: 10rem;
+}
+.medical-container {
+  display: flex;
+  background-color:hsla(2, 78%, 71%, 0.449);
+  padding-bottom: 10rem;
+}
+.medical-content {
+  margin: auto;
+}
+.medical-content a {
+  text-decoration: none;
+  background-image: linear-gradient(orange, rgb(233, 53, 21));
+  padding: 10px 30px;
+  border-radius: 20px;
+  color: black;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+.medical-content p {
+  font-size: 25px;
+  padding-bottom: 100px;
+}
+.medical-content img {
+  border-radius: 20px;
+  width: 180%;
+ margin-top: 10rem;
+}
+.medical-content h1 {
+  font-size: 50px;
+  letter-spacing: 3px;
+  border-bottom: 1px solid black;
+}
+.update-container {
+  width: 80%;
+  text-align: center;
+  padding-top: 5rem;
+  margin: auto;
+  padding-bottom: 5rem;
+}
+.update-container h1 {
+  font-size: 50px;
+  letter-spacing: 5px;
+  color: rgb(241, 10, 10);
+  font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Merriweather Sans', sans-serif;
+}
+.update-container p {
+  font-size: 30px;
+  letter-spacing: 5px;
+  padding-bottom: 50px;
+}
+.update-content1 {
+  width: 40%;
+  margin: auto;
+  padding: 100px;
+  background-color: rgba(192, 136, 125, 0.486);
+}
+.update-container input {
+  font-size: 30px;
+  background: #f1f1f1;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 5px;
+}
+.update-container button {
+  font-size: 30px;
+  color: white;
+  background: #f80808;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 5px;
+}
+footer {
+  padding: 80px;
+  background-color: black;
+  text-align: center;
+}
+footer h1 {
+  color: rgb(255, 106, 0);
+  letter-spacing: 15px;
+  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Kalam', cursive;
+  font-family: 'Nunito Sans', sans-serif;
+}
+footer h3 {
+  color: rgba(240, 255, 255, 0.704);
+  letter-spacing: 8px;
+}
